@@ -1,7 +1,10 @@
 //send calldata -> function dispatch -> function
 
 #define macro MAIN() = takes(0) returns (0) {
+    // PUSH0 0x01
     0x00 // [0]
+    0x01
+    0x03
     // 0x02 //Top[2,0]Bottem 
-    calldataload //[calldata]
+    // calldataload //[calldata]
 } 
